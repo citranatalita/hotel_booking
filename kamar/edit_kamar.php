@@ -35,14 +35,14 @@
             </tr>
             <td>Status Pemesanan</td>
                 <td>
-                    <select name="status" style="width: 100%">
-                    <option value="" disabled>Pilih Salah Satu</option>
-                        <option value="tersedia" <?php echo ($hotel['status'] == 'tersedia') ? 'selected' : ''; ?>>Tersedia</option>
-                        <option value="sudah dipesan" <?php echo ($hotel['status'] == 'sudah dipesan') ? 'selected' : ''; ?>>Sudah Dipesan</option>
+        <select name="status" style="width: 100%">
+       <option value="" disabled>Pilih Salah Satu</option>
+         <option value="tersedia" <?php echo ($hotel['status'] == 'tersedia') ? 'selected' : ''; ?>>Tersedia</option>
+   <option value="sudah dipesan" <?php echo ($hotel['status'] == 'sudah dipesan') ? 'selected' : ''; ?>>Sudah Dipesan </option>
                     </select>
                 </td>
         </table>
         <button type="submit" name="simpan">Simpan</button>
     </form>
-</body>
-</html>
+    </body>
+    </html>

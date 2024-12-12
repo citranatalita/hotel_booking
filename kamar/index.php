@@ -17,7 +17,6 @@
     </head>
     <body>
             <li><a href="\hotel_booking\kamar\index.php">Kamar</a></li>
-            
 
             <h2>Data Kamar</h2>
         <?php if (isset($_SESSION['notifikasi'])): ?>
